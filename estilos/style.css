@@ -48,9 +48,29 @@ section#curriculo {
 
 section#curriculo > div#imagem {
     display: block;
-    background: #F2BD8F url(../imagens/curriculo.jpg) no-repeat;
+    background: white url(../imagens/curriculo.jpg) no-repeat;
     background-size: cover;
     background-position: top center;
     height: 200px;
-    
+}
+
+section#curriculo > div#curriculo {
+    display: block;
+    padding: 10px;
+}
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    font-size: 1em;
+    font-weight: bolder;
+    text-align: justify;
+}
+
+form > div.campo {
+    background-color: #F2BD8F;
+    border: 2px solid #F2BD8F;
 }

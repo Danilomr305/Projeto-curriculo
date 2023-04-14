@@ -23,13 +23,15 @@
             <form action="curriculo.php" method="post">
                 <div class="campo">
                 <label for="ilogin">Login:</label>
-                <input type="email" name="login" id="ilogin">
+                <input type="email" name="login" id="ilogin" required placeholder="seu e-mail">
                 </div>
 
                 <div class="campo" >
                 <label for="isenha">Senha:</label>
-                <input type="password" name="senha" id="isenha">
+                <input type="password" name="senha" id="isenha" required minlength="8" maxlength="20" placeholder="sua senha">
                 </div>
+                <input type="button" value="Entrar">
+                <a href="esqueci.php">Esqueci a senha</a>
             </form>
             </div>
         </section>
