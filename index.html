@@ -25,7 +25,7 @@
             <form action="curriculo.php" method="post">
                 <div class="campo">
                     <span class="material-icons">person</span>
-                    <input type="email" name="login" id="ilogin" required placeholder="seu e-mail">
+                    <input type="email" name="login" id="ilogin" required placeholder="seu e-mail" minlength="15">
                     <label for="ilogin">Login:</label>
                 </div>
 
@@ -36,7 +36,8 @@
                 </div>
 
                 <input type="submit" value="Entrar">
-                <a href="esqueci.php">Esqueci a senha</a>
+                <a href="esqueci.php" class="botao">Esqueci a senha 
+                <span class="material-icons">mail</span></a>
             </form>
             </div>
         </section>
