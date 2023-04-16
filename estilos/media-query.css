@@ -1,1 +1,24 @@
 @charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, #F2BD8F, #4F5F85);
+    }
+
+    section#curriculo {
+        width: 80vw;
+        height: 300px;
+    }
+
+}
+
+@media screen and (min-wwwidth: 922px) {
+    body {
+        background-image: linear-gradient(to top, #F2BD8F, #4F5F85) ;
+    }
+
+    section#curriculo {
+        width: 950px;
+        height: 450px;
+    }
+}
